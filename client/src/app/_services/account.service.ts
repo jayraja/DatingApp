@@ -38,6 +38,4 @@ export class AccountService {
     localStorage.removeItem('user');
     this.currentUser.set(null);
   }
-
-  
 }
